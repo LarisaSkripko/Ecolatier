@@ -1,0 +1,38 @@
+.slide {
+    width: 25%;
+    text-decoration: none;
+    transition: all .6s ease;
+    &__img {
+        width: 600px;
+        height: 600px;
+        box-shadow: 20px 10px 10px #ccc;
+    }
+    &__title {
+        font-family: "myriad-SemiBold";
+        font-size: 32px;
+        margin-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 1468px) {
+    .slide {
+        &__img {
+            border: 2px solid #ccc;
+            width: 700px;
+            height: 700px;
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .slide {
+        &__img {
+            width: 500px;
+            height: 500px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.six {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 150px;
+    &__icon {
+        max-width: 330px;
+        width: 100%;
+        height: 291px;
+        
+    }
+    &__text {
+        font-size: 45px;
+        max-width: 1050px;
+        width: 100%;
+        text-align: left;
+        margin-top: 100px;
+    }
+    &__text::after {
+        content: " ";
+        max-width: 900px;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .six {
+        &__text {
+            font-size: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .six {
+        &__text {
+            font-size: 24px;
+        }
+    }
+}

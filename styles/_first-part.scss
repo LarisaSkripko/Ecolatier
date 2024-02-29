@@ -1,0 +1,12 @@
+.first-part {
+    padding: 50px 0 145px 100px;
+    max-width: 1383px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    .first-part {
+        max-width: 1600px;
+        padding: 0 0;
+    }
+}

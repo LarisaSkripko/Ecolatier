@@ -1,0 +1,19 @@
+.eco-friendly-second {
+  width: 100%;
+  font-family: "myriad";
+  &__title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .eco-friendly-second {
+    &__title {
+      display: inline-block;
+      font-size: 50px;
+      color: #FFF;
+      background-color: #164800;
+      margin: 25px 0;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.third {
+    display: flex;
+    &__icon {
+        max-width: 271px;
+        width: 100%;
+        height: 336px;
+    }
+    &__text {
+        font-size: 45px;
+        max-width: 418px;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    &__text::after {
+        content: " ";
+        max-width: 418px;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .third {
+        &__text {
+            font-size: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .third {
+        &__text {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.s1 {
+    #r1:checked ~ & {
+        margin-left: 0;
+    }
+    #r2:checked ~ & {
+        margin-left: -25%;
+    }
+    #r3:checked ~ & {
+        margin-left: -50%;
+    }
+    #r4:checked ~ & {
+        margin-left: -75%;
+    }
+}

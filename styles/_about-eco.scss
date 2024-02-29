@@ -1,0 +1,78 @@
+.about-eco {
+    position: relative;
+    font-family: "myriad";
+    padding: 200px 0 0;
+   &__title {
+    font-size: 80px;
+    max-width: 600px;
+    border-bottom: 1px solid black;
+    margin: 0 auto 115px;
+   }
+   &__subtitle {
+    font-size: 56px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+   }
+   &::after {
+    content: "";
+    display: block;
+    background-image: url("../img/heart-bg.png");
+    max-width: 839px;
+    width: 100%;
+    height: 819px;
+    margin: -490px auto 0;
+   }
+}
+
+@media screen and (max-width: 1468px) {
+    .about-eco {
+        &::after {
+            position: static;
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .about-eco {
+        &__title {
+            font-size: 65px;
+            margin-bottom: 40px;
+            max-width: 490px;
+        }
+        &__subtitle {
+            font-size: 46px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .about-eco {
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 36px;
+           
+        }
+        &::after {
+            max-width: 100%;
+            height: 719px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about-eco {
+        &__title {
+            font-size: 45px;
+            text-align: center;
+        }
+        &__subtitle {
+            position: static;
+            text-align: center;
+            margin: 70px 15px ;
+        }
+    }
+}

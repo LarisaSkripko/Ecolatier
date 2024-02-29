@@ -1,0 +1,10 @@
+.box {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    &__item {
+        display: inline-block;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+}

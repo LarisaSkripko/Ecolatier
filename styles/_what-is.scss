@@ -1,0 +1,90 @@
+.what-is {
+    font-family: "myriad";
+    font-weight: 300;
+    &__title {
+        font-size: 80px;
+        margin-left: 720px;
+        max-width: 670px;
+        border-bottom: 1px solid black;
+    }
+    &__subtitle {
+        font-size: 56px;
+        max-width: 990px;
+        text-align: left;
+        margin-top: 95px;
+        margin-left: 386px;
+    }
+    &__text {
+        font-size: 50px;
+        color: #FFF;
+        border: 1px solid #687360;
+        background-color: #687360;
+    }
+    div {
+        text-align: right;
+        margin-top: 145px;
+        position: relative;
+    }
+    div::after {
+        content: "";
+        position: absolute;
+        background-image: url("../icons/decor.png");
+        width: 468px;
+        height: 900px;
+        right: 0;
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 1852px) {
+    .what-is {
+        &__title {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1359px) {
+    .what-is {
+        div::after {
+            opacity: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .what-is {
+        &__title {
+            font-size: 65px;
+        }
+        &__subtitle {
+            font-size: 46px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .what-is {
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 36px;
+           
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .what-is {
+        &__title {
+            font-size: 45px;
+            text-align: center;
+        }
+        &__subtitle {
+            position: static;
+            text-align: center;
+            margin: 70px 15px ;
+        }
+    }
+}

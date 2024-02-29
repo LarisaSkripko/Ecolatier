@@ -1,0 +1,31 @@
+.navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+@media screen and (max-width: 1468px) {
+    .navigation {
+       bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 1077px) {
+    .navigation {
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .navigation {
+      bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .navigation {
+      bottom: 110px;
+    }
+}

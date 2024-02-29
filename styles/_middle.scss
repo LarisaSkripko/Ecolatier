@@ -1,0 +1,25 @@
+.middle {
+    position: absolute;
+    top: 280px;
+    right: 190px;
+}
+
+@media screen and (max-width: 1710px) {
+    .middle {
+        right: 120px;
+    }
+}
+
+@media screen and (max-width: 1555px) {
+    .middle {
+        right: 90px;
+    }
+}
+
+@media screen and (max-width: 1468px) {
+    .middle {
+        position: static;
+        margin: 0 auto ;
+        opacity: .99;
+    }
+}

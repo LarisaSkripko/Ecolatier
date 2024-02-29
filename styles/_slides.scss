@@ -1,0 +1,9 @@
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    input[name=r] {
+        position: absolute;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,14 @@
+.bar {
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ccc;
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .4s ease;
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+}
